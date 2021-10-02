@@ -1,5 +1,5 @@
 list_a=[0,0,2,2,3,3,8,2,7]
-d={} # initializing dictionary
+d={} # Creating Empty dictionary
 def CountMaxFrequencyElement(ele):
     count=0
     for index in range(len(list_a)):
@@ -7,7 +7,7 @@ def CountMaxFrequencyElement(ele):
             count+=1
     return count
 def RemoveMaxFrequencyFromLeft(ele):
-    index=list_a.index(ele) # return index of max frequency element
+    index=list_a.index(ele) # return index of max frequency element in a list
     new_list=list_a.pop(index)
     print("Original List :")
     print(list_a)
